@@ -31,6 +31,12 @@
 					</div>
 				</div>
 				<div class="clearboth"></div>
+					<div class="licenseColumn header">Drivers License</div>
+					<div class="nameColumn header">Last Name</div>
+					<div class="nameColumn header">First Name</div>
+					<div class="telephoneColumn header">Telephone</div>
+					<div class="addressColumn header">Address</div>
+					<div class="goGolumn header">&nbsp;</div>
 				<div id="clientlist">
 				</div>
 			</form>

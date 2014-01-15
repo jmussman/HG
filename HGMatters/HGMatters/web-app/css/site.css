@@ -5,14 +5,6 @@
 	margin: 20px;
 }
 
-#clientlist {
-	
-	margin-top: 10px;
-	width: 920px;
-	height: 400px;
-	border: 1px solid #999999;
-}
-
 .clearboth {
 	clear: both;
 }
@@ -30,3 +22,75 @@
 	
 	width: 225px;
 }
+
+/* List settings for the client list */
+
+#clientlist {
+	
+	margin-top: 10px;
+	width: 920px;
+	height: 400px;
+	border: 1px solid #999999;
+}
+
+.clientListRow {
+	
+	width: 100%;
+}
+
+.cell {
+	
+}
+
+.header {
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid #555555;
+	border-bottom: 1px solid #555555;
+	background-color: gray;
+	color: black;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	font-style: normal;
+	text-align: center;
+}
+
+/* Scrolling table example */
+
+table {width:750px;}
+thead {background-color:#000268;color:#FFFFFF;text-align:center; position:fixed; top:0px;}
+thead th { height:50px; width:120px;}
+tbody {background-color:#cccccc;color:#000000;text-align:center; height:150px; overflow: scroll; margin:0px;}
+tbody td { height:60px; width:100px;}
+tfoot {background-color:#000268; color:#FFFFFF;text-align:center; position:fixed; bottom:0px;}
+tfoot td { height:50px; width:120px;}
+
+/*
+<table>
+<thead>
+<tr><th>Head1</th><th>Head2</th><th>Head3</th><th>Head4</th><th>Head5</th><th>Head6</th></tr>
+</thead>
+<tfoot>
+<tr><td>Foot1</td><td>Foot2</td><td>Foot3</td><td>Foot4</td><td>Foot5</td><td>Foot6</td></tr>
+</tfoot>
+<tbody>
+<tr><td>r1c1</td><td>r1c2</td><td>r1c3</td><td>r1c4</td><td>r1c5</td><td>r1c6</td></tr>
+<tr><td>r2c1</td><td>r2c2</td><td>r2c3</td><td>r2c4</td><td>r2c5</td><td>r2c6</td></tr>
+<tr><td>r3c1</td><td>r3c2</td><td>r3c3</td><td>r3c4</td><td>r3c5</td><td>r3c6</td></tr>
+<tr><td>r4c1</td><td>r4c2</td><td>r4c3</td><td>r4c4</td><td>r4c5</td><td>r4c6</td></tr>
+<tr><td>r5c1</td><td>r5c2</td><td>r5c3</td><td>r5c4</td><td>r5c5</td><td>r5c6</td></tr>
+<tr><td>r6c1</td><td>r6c2</td><td>r6c3</td><td>r6c4</td><td>r6c5</td><td>r6c6</td></tr>
+<tr><td>r7c1</td><td>r7c2</td><td>r7c3</td><td>r7c4</td><td>r7c5</td><td>r7c6</td></tr>
+<tr><td>r8c1</td><td>r8c2</td><td>r8c3</td><td>r8c4</td><td>r8c5</td><td>r8c6</td></tr>
+<tr><td>r9c1</td><td>r9c2</td><td>r9c3</td><td>r9c4</td><td>r9c5</td><td>r9c6</td></tr>
+<tr><td>r10c1</td><td>r10c2</td><td>r10c3</td><td>r10c4</td><td>r10c5</td><td>r10c6</td></tr>
+<tr><td>r11c1</td><td>r11c2</td><td>r11c3</td><td>r11c4</td><td>r11c5</td><td>r11c6</td></tr>
+<tr><td>r12c1</td><td>r12c2</td><td>r12c3</td><td>r12c4</td><td>r12c5</td><td>r12c6</td></tr>
+<tr><td>r13c1</td><td>r13c2</td><td>r13c3</td><td>r13c4</td><td>r13c5</td><td>r13c6</td></tr>
+<tr><td>r14c1</td><td>r14c2</td><td>r14c3</td><td>r14c4</td><td>r14c5</td><td>r14c6</td></tr>
+<tr><td>r15c1</td><td>r15c2</td><td>r15c3</td><td>r15c4</td><td>r15c5</td><td>r15c6</td></tr>
+</tbody>
+</table>
+*/
+
