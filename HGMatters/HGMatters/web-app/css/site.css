@@ -1,0 +1,32 @@
+@CHARSET "US-ASCII";
+
+#pageblock {
+	
+	margin: 20px;
+}
+
+#clientlist {
+	
+	margin-top: 10px;
+	width: 920px;
+	height: 400px;
+	border: 1px solid #999999;
+}
+
+.clearboth {
+	clear: both;
+}
+
+.fieldlabel {
+	
+	font-family: arial, helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+	color: #999999;
+}
+
+.fieldstandardtext {
+	
+	width: 225px;
+}
